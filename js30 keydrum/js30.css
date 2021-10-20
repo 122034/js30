@@ -1,0 +1,35 @@
+body {
+  background-image: url("./img2.jpg");
+}
+.keys {
+  display: flex;
+  top: 50vh;
+  position:relative;
+  }
+.key {
+  border: 2px solid #afb9c7;
+  border-radius: 1px;
+  padding-block: 0.5rem;
+  margin: 1%;
+  font-size: 1.5rem;
+  transition: all 1.07s;
+  width: 100px;
+  text-align: center;
+  color: aliceblue;
+  background:rgba(156, 101, 18,0.1);
+
+}
+.playing {
+  transform: scale(1.25);
+  border-color: #ffc66f;
+  box-shadow: 0px;
+}
+kbd {
+  display: block;
+}
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
